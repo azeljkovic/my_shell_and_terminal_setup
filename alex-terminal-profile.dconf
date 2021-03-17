@@ -1,0 +1,14 @@
+[/]
+default='66ae9168-beda-4238-b2bc-8131f9ff7727'
+list=['66ae9168-beda-4238-b2bc-8131f9ff7727']
+
+[:66ae9168-beda-4238-b2bc-8131f9ff7727]
+background-color='rgb(0,0,0)'
+background-transparency-percent=15
+default-size-columns=500
+default-size-rows=500
+foreground-color='rgb(255,255,255)'
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='Alex'
