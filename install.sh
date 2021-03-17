@@ -25,9 +25,8 @@ sudo apt install tmux -y
 echo -e "\e[93m********** installing zsh **********\e[0m"
 sudo apt install zsh -y
 
-echo -e "\e[93m********** installing ohmyzsh pre-reqisits **********\e[0m"
-sudo apt install fonts-powerline -y
-sudo apt-get install fzf -y
+echo -e "\e[93m********** installing ohmyzsh pre-requisites **********\e[0m"
+sudo apt install fonts-powerline fzf git -y
 
 echo -e "\e[93m********** installing ohmyzsh **********\e[0m"
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
