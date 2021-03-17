@@ -34,4 +34,7 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 # before this step you need to exit ohmyzsh by typing exit
 echo -e "\e[93m********** adding ohmyzsh configurataion **********\e[0m"
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-wget https://raw.githubusercontent.com/azeljkovic/my_shell_and_terminal_setup/main/.zshrc
+wget -O ".zshrc" https://raw.githubusercontent.com/azeljkovic/my_shell_and_terminal_setup/main/.zshrc
+
+echo -e "\e[93m********** remove the install.sh script **********\e[0m"
+rm install.sh
